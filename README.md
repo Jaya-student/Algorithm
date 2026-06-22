@@ -21,7 +21,6 @@ Root-finding algorithms solve for $x$ such that $f(x) = 0$.
 | **Bisection Method** | Linear — $O(1/2^n)$ | Repeatedly halves the interval containing the root |
 | **Newton-Raphson** | Quadratic — $O(e^2)$ | Uses tangent line approximation via $f'(x)$ |
 | **Secant Method** | Superlinear — $O(e^{1.618})$ | Finite difference approximation of the derivative |
-| **Fixed-Point Iteration** | Linear (when convergent) | Rewrites $f(x)=0$ as $x = g(x)$ and iterates |
 
 **Why it matters:** Root-finding underlies optimization solvers, physics simulations, financial models (e.g. implied volatility), and machine learning loss minimization.
 
